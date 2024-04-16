@@ -1,10 +1,26 @@
 /********** Template CSS **********/
 :root {
-    --primary: #1363C6;
+    --primary: #000028;
     --secondary: #15ACE1;
     --light: #F4F7FE;
-    --dark: #14183E;
+    --dark: #000028;
+
+  
 }
+
+
+
+
+
+
+
+/***Our Code Start***/
+
+
+
+
+/***end***/
+
 
 
 /*** Spinner ***/
@@ -88,6 +104,7 @@ h6,
 .navbar {
     padding: 11px 0 !important;
     height: 75px;
+    background-color:var(--primary);
 }
 
 .navbar .navbar-nav .nav-link {
@@ -146,8 +163,9 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-top: -75px;
-    background: url(../img/bg-hero.png) center center no-repeat;
+    /* background: url(../img/bg-hero.png) center center no-repeat; */
     background-size: cover;
+    background-color:var(--primary);
 }
 
 .hero-header .breadcrumb-item+.breadcrumb-item::before {
@@ -289,8 +307,9 @@ h6,
 
 /*** Feature ***/
 .feature {
-    background: url(../img/bg-hero.png) center center no-repeat;
+    /* background: url(../img/bg-hero.png) center center no-repeat; */
     background-size: cover;
+    background-color: var(--primary);
 }
 
 
